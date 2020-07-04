@@ -8,52 +8,56 @@ body, html{
     background-color: #f1f1f2;
     margin: auto;
     width: 400px;
-    padding: 40px 40px 40px 40px;
+    padding: 30px 30px 30px 30px;
     margin-top: 10%;
     border-radius: 20px;
 }
 
-ul{
-    list-style: none;
-    padding: 20px 20px 20px 20px;
-    margin: 0;
-
-}
-
-li{
-    display: block;
-    
-}
-
-
 h1{
     font-size:2.2em;
+    margin-top: 3px;
 }
 
 h2{
     font-size: 0.8em;
-    padding-top: -40px;
+    margin-top: -20px;
+}
+
+.txt1{
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+.txt2{
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+.txt3{
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+input{
+    margin-bottom: 10px;
+    font-size: 0.8em;
+    height: 20px;
+    width: 98%;
 }
 
 button{
-    background-color: #7159c1;
+    background-color: #ffffff;
     padding: 10px 10px 10px 10px;
-    border-radius: 1em;
+    border-radius: 0.1em;
     border: solid #000000 1px;
     text-transform: uppercase;
-    
-}
-
-label{
-    display: inline-block;
-    width: 90px;
-    text-align: right;
+    list-style: none;
+    margin-top: 10px;
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 12px;
-    padding: 10px 10px 10px 10px;
 }
 
 textarea{
-    width: 100px;
-    box-sizing: border-box;
+    font-size: 0.8em;
+    height: 50px;
+    width: 98%;
 }

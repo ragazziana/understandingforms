@@ -10,28 +10,29 @@
 <body>
     <main>
     <div class="formtext">
-        <h1>This is my form</h1>
-        <h2>I will be glad if you fill the form!</h2>
+        <h1>THIS IS MY FORM</h1>
+        <h2>Please fill the form!</h2>
         
         <form action="/my-handling-form-page" method="post">
             
-            <ul>
-                <li>
-            <label for="name">Name:</label>
+            
+            <label class="txt1" for="name">Name:</label>
+            <br> 
             <input type="text" id="name" name="user_name">
-                </li>
-                <li>
-            <label for="email">Email:</label>
+            <br>   
+            
+            <label class="txt2" for="email">Email:</label>
+            <br> 
             <input type="email" id="email" name="user_email">
-                </li>
-                <li>
-            <label for="msg">Message:</label>
+            <br>
+            
+            <label class="txt3" for="msg">Message:</label>
+            <br> 
             <textarea id="msg" name="user_message"></textarea>
-                </li>
-            </ul>
-            <li class="button">
-                <button type="submit">Send your message!</button>
-              </li>
+            <br>
+            
+            <button class="button" type="submit">Send your message!</button>
+              
 
         </form>
     </div>
