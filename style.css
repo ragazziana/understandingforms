@@ -16,26 +16,31 @@ body, html{
 h1{
     font-size:2.2em;
     margin-top: 3px;
+    letter-spacing: 4px;
 }
 
 h2{
     font-size: 0.8em;
     margin-top: -20px;
+    letter-spacing: 2px;
 }
 
 .txt1{
     font-size: 0.8em;
     text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 .txt2{
     font-size: 0.8em;
     text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 .txt3{
     font-size: 0.8em;
     text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 input{
@@ -54,10 +59,13 @@ button{
     list-style: none;
     margin-top: 10px;
     font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 2px;
+    
 }
 
 textarea{
-    font-size: 0.8em;
+    
     height: 50px;
     width: 98%;
+    
 }
